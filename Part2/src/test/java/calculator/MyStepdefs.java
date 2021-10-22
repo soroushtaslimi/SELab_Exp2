@@ -19,7 +19,7 @@ public class MyStepdefs {
     }
 
 
-    @Given("^One value and one operator, (\\d+) and (.*)$")
+    @Given("^One value and one operator, (-?\\d+) and (.*)$")
     public void oneValueAndOneOperatorAnd(int arg0, String arg1) {
         value1 = arg0;
         opt = arg1;
