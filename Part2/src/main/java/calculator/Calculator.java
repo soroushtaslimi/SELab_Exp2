@@ -4,8 +4,10 @@ import static java.lang.Math.sqrt;
 
 public class Calculator {
     public double sqr(int a){
-        // Todo
-        return sqrt(a);
+        if (a < 0)
+            return 0;
+        else
+            return sqrt(a);
     }
 
     public double rvs(int a){
