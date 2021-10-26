@@ -11,8 +11,10 @@ public class Calculator {
     }
 
     public double rvs(int a){
-        //Todo
-        return 1.0 / a;
+        if (a == 0)
+            return 0;
+        else
+            return 1.0 / a;
     }
 
     public double operate(int a, String opt){
