@@ -26,6 +26,8 @@ Feature: Calculator
       | 4     | rvs   | 0.25    |
       | 4     | sqr   | 2       |
       | 5     | sqr   | 2.2361  |
+      | 0     | sqr   | 0       |
+      | -2    | sqr   | 0       |
       | 5     | rvs   | 0.2     |
       | -2    | rvs   | -0.5    |
       | -8    | rvs   | -0.125  |
