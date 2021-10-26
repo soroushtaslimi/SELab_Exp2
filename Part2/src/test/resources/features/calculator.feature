@@ -31,3 +31,4 @@ Feature: Calculator
       | 5     | rvs   | 0.2     |
       | -2    | rvs   | -0.5    |
       | -8    | rvs   | -0.125  |
+      | 0     | rvs   | 0       |
